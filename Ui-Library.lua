@@ -163,7 +163,7 @@ function library:CreateWindow(name, size, hidebutton)
 
     window.name = name or ""
     window.size = UDim2.fromOffset(size.X, size.Y) or UDim2.fromOffset(492, 598)
-    window.hidebutton = hidebutton or Enum.KeyCode.RightShift
+    window.hidebutton = hidebutton or Enum.KeyCode.Insert
     window.theme = library.theme
 
     window.Main = Instance.new("ScreenGui", coregui)
